@@ -1,0 +1,158 @@
+<style>
+
+
+/*-----------------------------------
+     Text css
+-------------------------------------*/
+
+h1 {
+  text-align: center;
+}
+.half {
+  float: left;
+  width: 50%;
+  padding: 0 1em;
+}
+
+body {
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-color: #545977;
+    line-height: 1.6em;
+    background-color: #ecf0f1;
+    height: 125vh;
+    margin top: 0px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------
+    Navigation css
+-------------------------------------*/
+
+
+.nav-bar {
+background-color: #3498db;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+
+
+}
+
+.nav-bar > li {
+  flex: 0.5;
+  margin: 20px;
+}
+
+.nav-opts {
+  display:inline-block;
+  align-items: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: -4px;
+
+}
+
+
+.nav-link {
+  text-decoration:none;
+  text-transform:uppercase;
+  /*background:#a9a9a9;*/
+  color:#ffffff;
+  padding:0.5em;
+
+}
+
+.nav-link:hover{
+  background:#ff4f00;
+  color:#ffffff;
+}
+
+.top-area {
+    background: #3498db; none repeat scroll 0 0;
+
+
+  }
+
+
+  /*-----------------------------------
+       Form css
+  -------------------------------------*/
+form input[type=text], select{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.formpage input[type=submit] {
+    width: 20%;
+    background-color: #3498db;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px
+}
+
+
+
+.formpage input[type=submit]:hover {
+
+    background-color: #3498db;
+}
+
+input[type=text], select, textarea {
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+
+    background-color: #45a049;
+}
+
+.container {
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+</style>

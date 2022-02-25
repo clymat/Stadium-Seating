@@ -1,0 +1,238 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-color: #545977;
+    line-height: 1.6em;
+    background-color: #ecf0f1;
+    height: 125vh;
+    margin top: 0px;
+
+
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: fit-content(40%);
+  grid-gap: 5em;
+  /*width: 960px;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+
+
+h1 {
+  color: #1493fd;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+
+  }
+
+
+
+
+
+  .em {color: #FB3004;
+  }
+
+  .strong {color: #000000;
+  }
+
+  p {
+      display: block;
+      margin-block-start: 2em;
+      margin-block-end: 3em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+
+  }
+/*-----------------------------------
+     Hero css
+-------------------------------------*/
+
+/* Sizing */
+.hero {
+
+    width: 100vw;
+    height: 100vh;
+
+
+    /* Flexbox  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* Text styles */
+    text-align: center;
+    color: #ffffff;
+
+    /* Background styles */
+    background-image: url(images/stadium.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/* Text styles */
+.hero h1 {
+    font-color: #1493fd;
+    font-size: 5em;
+    margin-top: 0;
+   margin-bottom: 0.5em;
+}
+
+.hero-inner h2 {
+
+font-color: #ffffff;
+
+}
+
+.hero .btn {
+
+  display: block;
+  width: 200px;
+  border: 3px solid #fd7e14;
+  border-radius: 20px;
+  transition: 0.3s all;
+
+  /* Padding and margins */
+  padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+   /* Text styles */
+    color: #000000;
+   text-decoration: none;
+   font-size: 1.5em;
+
+    background-color: #3498db;
+
+
+}
+
+.hero .btn:hover {
+
+  opacity: 0.5;
+}
+
+.content{
+    background:#fff;
+    padding: 20px 0;
+}
+
+.wrap{
+    width:80%;
+    margin:0 auto;
+}
+
+.clear{clear:both;}/* clear float */
+
+.main h3 {
+  color: #3e425c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 15px;
+  text-align: center;
+
+}
+
+header, footer {
+  grid-column: 1 / 4;
+}
+</style>
+/*-----------------------------------
+    Navigation css
+-------------------------------------*/
+
+
+
+
+  /*-----------------------------------
+            Images css
+  -------------------------------------*/
+
+  .books {
+    max-width: 100%;
+    display: block;
+    float: left;
+    padding: 0 0 20px 20px;
+
+
+  }
+  .rightbar {
+    max-width: 100%;
+    display: block;
+    float: right;
+    padding: 0 0 20px 20px;
+
+  }
+
+  .img-block{
+    max-width: 40%;
+    display: block;
+    float: left;
+    padding: 0 0 40px 40px;
+
+  }
+
+
+
+
+
+  /*-----------------------------------
+       Footer css
+  -------------------------------------*/
+
+  .lower {
+    position: relative;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #2980b9
+     color: white;
+     text-align: center;
+     margin-top: 20px;
+
+  }
+
+
+  /*-----------------------------------
+      Media Query
+  -------------------------------------*/
+
+
+  @media screen and (min-width: 600px) {
+    .nav-opts {
+
+      width: 100px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.0em;
+      display: inline-block;
+      float: left;
+    	padding: 0px;
+    }
+
+    @media screen ( max-width:550px ) {
+      .half {
+        box-sizing: border-box
+        transform: translate( 0 , 0 )
+        max-width: 100%
+        min-height: 100%
+        margin: 0
+        left: 0
+  }
